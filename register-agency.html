@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+  <meta name="theme-color" content="#2f6bff">
+  <title>Đăng ký cộng tác viên | CHỨNG CHỈ P12</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:opsz,wght@14..32,300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="page-orb orb-one"></div>
+  <div class="page-orb orb-two"></div>
+
+  <header class="site-header" id="top">
+    <div class="container">
+      <nav class="navbar" aria-label="Điều hướng chính">
+        <a href="index.html" class="logo" aria-label="CHỨNG CHỈ P12 Agency">
+          <span class="logo-mark"><i class="fa-solid fa-bolt"></i></span>
+          <span>CHỨNG CHỈ P12 <b>Agency</b></span>
+        </a>
+        <a href="index.html#faq" class="btn btn-outline" style="min-height:44px;padding:0 16px;"><i class="fa-solid fa-arrow-left"></i> Về trang chính</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="form-main">
+    <div class="container form-shell">
+      <section class="form-panel fade-up-init reveal">
+        <span class="section-label"><i class="fa-solid fa-user-plus"></i> Đăng ký đồng hành</span>
+        <h1>Trở thành bạn đồng hành với <span>CHỨNG CHỈ P12</span></h1>
+        <p>Điền thông tin bên dưới để admin nhận yêu cầu trực tiếp qua Telegram. Thông tin càng rõ ràng thì quá trình tư vấn và xét duyệt càng nhanh.</p>
+        <ul class="form-points">
+          <li><i class="fa-solid fa-circle-check"></i> Form gọn, dễ điền, tối ưu cả điện thoại và máy tính.</li>
+          <li><i class="fa-solid fa-circle-check"></i> Nội dung gửi thẳng về admin chính thức qua Telegram.</li>
+          <li><i class="fa-solid fa-circle-check"></i> Phù hợp người mới, CTV có cộng đồng hoặc muốn mở web riêng.</li>
+        </ul>
+        <a class="back-link" href="index.html"><i class="fa-solid fa-house"></i> Quay lại trang giới thiệu</a>
+      </section>
+
+      <section class="form-card fade-up-init reveal" aria-label="Form đăng ký cộng tác viên">
+        <span class="section-label">Thông tin đăng ký</span>
+        <h2>Gửi yêu cầu đăng ký</h2>
+        <p>Admin sẽ nhận toàn bộ nội dung bạn nhập và phản hồi qua thông tin liên hệ bạn để lại.</p>
+        <form class="agency-form" id="agencyForm">
+          <div class="form-group">
+            <label for="fullName">Họ và tên <span aria-hidden="true">*</span></label>
+            <input id="fullName" name="fullName" type="text" placeholder="Ví dụ: Nguyễn Văn A" required autocomplete="name">
+          </div>
+          <div class="form-group">
+            <label for="contactInfo">Thông tin liên hệ <span aria-hidden="true">*</span></label>
+            <input id="contactInfo" name="contactInfo" type="text" placeholder="Zalo hoặc Telegram, ưu tiên Telegram" required autocomplete="off">
+          </div>
+          <div class="form-group">
+            <label for="reason">Lí do bạn muốn trở thành bạn đồng hành với CHỨNG CHỈ P12? <span aria-hidden="true">*</span></label>
+            <textarea id="reason" name="reason" placeholder="Chia sẻ mục tiêu, định hướng hoặc lý do bạn muốn tham gia..." required></textarea>
+          </div>
+          <div class="form-group">
+            <label for="community">Cộng đồng của bạn nếu có</label>
+            <input id="community" name="community" type="text" placeholder="Link nhóm/kênh/fanpage hoặc mô tả ngắn">
+          </div>
+          <button class="submit-btn" id="submitBtn" type="submit"><i class="fa-solid fa-paper-plane"></i> Gửi yêu cầu đăng ký</button>
+          <div class="form-status" id="formStatus" role="status" aria-live="polite"></div>
+        </form>
+      </section>
+    </div>
+  </main>
+
+  <script src="register-agency.js"></script>
+</body>
+</html>
