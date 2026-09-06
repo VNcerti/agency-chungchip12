@@ -1,0 +1,43 @@
+{
+  "name": "VSign IPA Library",
+  "identifier": "com.chungchip12.vsign-source",
+  "sourceURL": "https://agency.chungchip12.com/vsign-source/apps.json",
+  "apps": [
+    {
+      "name": "Doulingo",
+      "developerName": "Vietnam Signing Authority",
+      "iconURL": "https://play-lh.googleusercontent.com/wRh3wXmWiBlqdUSH6Q6IQzVdodOMWDI2kgE00Cd7CyBtfcILa0Hh7zF1S6Jx__E2ED8ldXGn-onqmA478YY0SQ=w480-h960-rw",
+      "versions": [
+        {
+          "version": "7.135.2",
+          "downloadURL": "https://vsacheat.com/download/747Duolingo_7.135.2_1787476234.ipa",
+          "localizedDescription": "Doulingo - Vietnam Signing Authority"
+        }
+      ]
+    },
+    {
+      "name": "PHIM 4K",
+      "developerName": "Vietnam Signing Authority",
+      "iconURL": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQoXj1Y_xDzjANRAb12KNDJMe9SX9jqc9LKBunAQPSSGg&s=10",
+      "versions": [
+        {
+          "version": "2.5.1",
+          "downloadURL": "https://vsacheat.com/download/756Phim.4K_2.5.1_1787745471.ipa",
+          "localizedDescription": "PHIM 4K - Vietnam Signing Authority"
+        }
+      ]
+    },
+    {
+      "name": "Locket Gold",
+      "developerName": "Vietnam Signing Authority",
+      "iconURL": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/82/ba/0f/82ba0f05-4f3c-7e13-c375-2d08fec3ba7b/Placeholder.mill/400x400bb-75.webp",
+      "versions": [
+        {
+          "version": "2.58.0",
+          "downloadURL": "https://vsacheat.com/download/733Locket_2.58.0_1786717172.ipa",
+          "localizedDescription": "Locket Gold - Vietnam Signing Authority"
+        }
+      ]
+    }
+  ]
+}
