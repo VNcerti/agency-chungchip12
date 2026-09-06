@@ -4,7 +4,6 @@
   "sourceURL": "https://agency.chungchip12.com/vsign-source/apps.json",
   "iconURL": "https://ioscert.io.vn/img/vsign.webp",
   "apps": [
-
     {
       "name": "CamScanner - PDF Scanner",
       "developerName": "Vietnam Signing Authority",
@@ -12,6 +11,7 @@
       "versions": [
         {
           "version": "7.22.0",
+          "date": "1945-09-02",
           "downloadURL": "https://vsacheat.com/download/693CamScanner_7.22.0_1784942792.ipa",
           "localizedDescription": "Mở khóa toàn bộ tính năng quét cao cấp\nChuyển đổi hình ảnh và PDF thành văn bản\nTự động nhận diện và cắt lề tài liệu chuẩn xác\nQuét văn bản với chất lượng độ phân giải cao\nHỗ trợ lưu trữ và chia sẻ file PDF nhanh chóng\nTrích xuất dữ liệu thông minh từ mọi loại giấy tờ"
         }
@@ -24,6 +24,7 @@
       "versions": [
         {
           "version": "2.17.4",
+          "date": "1945-09-02",
           "downloadURL": "https://vsacheat.com/download/694Dazz_2.17.4_1784942751.ipa",
           "localizedDescription": "Mở khóa toàn bộ tính năng cao cấp\nToàn bộ filter máy ảnh cổ điển, film\nChụp ảnh, quay video hiệu ứng retro\nXuất ảnh sắc nét, không Watermark\nChỉnh sửa ánh sáng, rò rỉ sáng đầy đủ\nKhông quảng cáo, tốc độ xử lý ưu tiên"
         }
@@ -36,6 +37,7 @@
       "versions": [
         {
           "version": "46.0.0",
+          "date": "1945-09-02",
           "downloadURL": "https://vsacheat.com/download/696TikTok_46.0.0_1784942922.ipa",
           "localizedDescription": "Tải video chất lượng cao, Full HD không logo\nTải story với chất lượng gốc, độ phân giải cao\nXác nhận trước khi follow tài khoản để tránh thao tác nhầm\nSao chép văn bản từ caption, tiểu sử và bình luận bằng cách nhấn giữ\nXác nhận trước khi thả tim video khi double tap\nXác nhận trước khi làm mới trang (refresh)\nGửi video và ảnh dưới dạng nhúng (embed)\nMở khóa thêm nhiều tính năng nâng cao khác\nĐể kích hoạt MOD bấm icon \"⚡\" ở bên cạnh mục \"Hồ Sơ\""
         }
@@ -48,6 +50,7 @@
       "versions": [
         {
           "version": "1.135",
+          "date": "1945-09-02",
           "downloadURL": "https://vsacheat.com/download/702Toca.World_1.135_1784942679.ipa",
           "localizedDescription": "Mua toàn bộ đồ vật không mất tiền\nMở khóa mọi địa điểm, nhân vật\nSáng tạo thế giới riêng không giới hạn\nTùy chỉnh nhà cửa, trang phục đầy đủ\nKhám phá tự do, không thiếu thứ gì"
         }
@@ -60,6 +63,7 @@
       "versions": [
         {
           "version": "461.6.1",
+          "date": "1945-09-02",
           "downloadURL": "https://vsacheat.com/download/705VSCO_461.6.1_1785652920.ipa",
           "localizedDescription": "Mở khóa toàn bộ preset Pro độc quyền\nHơn 200 preset màu sắc điện ảnh chuyên nghiệp\nChỉnh sửa ảnh, video chất lượng cao không giới hạn\nPhơi sáng, HSL, grain, tone curve chuyên sâu\nCông cụ chỉnh mặt, làm đẹp da tự nhiên\nGhép ảnh, tạo collage nghệ thuật đa dạng\nXuất ảnh, video sắc nét, không Watermark\nKhông quảng cáo, trải nghiệm trọn vẹn VIP"
         }
@@ -72,6 +76,7 @@
       "versions": [
         {
           "version": "6.22.2",
+          "date": "1945-09-02",
           "downloadURL": "https://vsacheat.com/download/706SnapEdit_6.22.2_1785653174.ipa",
           "localizedDescription": "Mở khóa toàn bộ tính năng cao cấp\nXóa vật thể người và chữ thừa bằng công nghệ AI\nTăng độ nét và phục hồi ảnh mờ chuyên nghiệp\nThay nền và làm sạch hình ảnh tự động cực nhanh\nLoại bỏ hoàn toàn mọi quảng cáo gây phiền phức\nTrải nghiệm không gian chỉnh sửa mượt mà tối ưu"
         }
@@ -84,6 +89,7 @@
       "versions": [
         {
           "version": "21.33.5",
+          "date": "1945-09-02",
           "downloadURL": "https://vsacheat.com/download/750YouTube.Plus_21.33.5_1787476129.ipa",
           "localizedDescription": "Tải video, nhạc, ảnh nền, bài đăng nhanh\nSao chép thông tin video, bình luận một chạm\nTùy chỉnh giao diện OLED, ẩn nguồn cấp\nCử chỉ điều khiển, đặt chất lượng mặc định\nChọn ca khúc âm thanh ưu tiên khi phát\nSponsorBlock bỏ qua đoạn tài trợ tự động\nLưu và khôi phục cài đặt cá nhân dễ dàng\nXóa bộ nhớ cache thủ công hoặc tự động\nVào cài đặt khám phá thêm tùy chỉnh nâng cao"
         }
@@ -96,6 +102,7 @@
       "versions": [
         {
           "version": "15.3.5",
+          "date": "1945-09-02",
           "downloadURL": "https://vsacheat.com/download/720B612_15.3.5_1786449530.ipa",
           "localizedDescription": "Mở khóa toàn bộ tính năng VIP\nToàn bộ filter, hiệu ứng cao cấp\nTrang điểm AR thông minh thời gian thực\nChỉnh ảnh, video chuyên nghiệp HSL, Curves\nTạo filter cá nhân, sticker, chỉnh tóc, dáng\nKho nhạc, hiệu ứng quay video thịnh hành"
         }
@@ -108,6 +115,7 @@
       "versions": [
         {
           "version": "15.3.5",
+          "date": "1945-09-02",
           "downloadURL": "https://vsacheat.com/download/721SNOW_15.3.5_1786449571.ipa",
           "localizedDescription": "Mở khóa toàn bộ tính năng cao cấp\nToàn bộ filter, hiệu ứng làm đẹp VIP\nTrang điểm AR thông minh thời gian thực\nChỉnh sửa ảnh, video chuyên nghiệp đầy đủ\nTạo sticker cá nhân, chỉnh dáng, tóc, mặt\nKho nhạc, hiệu ứng quay video thịnh hành\nXuất ảnh, video sắc nét, không Watermark"
         }
@@ -120,6 +128,7 @@
       "versions": [
         {
           "version": "45.8.0",
+          "date": "1945-09-02",
           "downloadURL": "https://vsacheat.com/download/719TikTok.mod_45.8.0_1786295080.ipa",
           "localizedDescription": "Khóa chat bằng Face ID, Touch ID, mã PIN\nTìm kiếm nhanh cài đặt GTok trong menu\nDanh sách đen tác giả, ẩn video khỏi mọi nơi\nChọn tác giả trực tiếp từ danh sách đang theo dõi\nNgoại lệ bài đăng lại, vẫn hiện người muốn xem\nKhông làm mới trang chủ khi vuốt\nẨn bài đăng lại, ẩn bài đăng ảnh\nNgoại lệ biểu tượng lửa tùy chỉnh\nHiển thị toàn bộ bình luận dài không cắt"
         }
@@ -132,6 +141,7 @@
       "versions": [
         {
           "version": "7.3.0",
+          "date": "1945-09-02",
           "downloadURL": "https://vsacheat.com/download/713EPIK_7.3.0_1785653334.ipa",
           "localizedDescription": "Mở khóa toàn bộ tính năng cao cấp\nAI nâng cao, chỉnh sửa thông minh\nHSL, Curves, Split Tone, Grain, Vignette chuyên sâu\nCắt, xoay, lật, phối cảnh, phản chiếu hoàn hảo\nRetouch chân dung AI, làm đẹp da, tóc, trang điểm\nHiệu ứng nghệ thuật, sticker, chữ, cọ vẽ, filter AI\nKhông giới hạn công cụ Pro, dùng đầy đủ\nChưa hiện Pro, đóng ứng dụng và mở lại"
         }
@@ -144,6 +154,7 @@
       "versions": [
         {
           "version": "6.2.5.5",
+          "date": "1945-09-02",
           "downloadURL": "https://vsacheat.com/download/711Alight.Motion_6.2.55_1785653107.ipa",
           "localizedDescription": "Mở khóa toàn bộ tính năng Premium\nKhông giới hạn công cụ Pro, dùng đầy đủ\nChỉnh sửa video, motion graphic, VFX, animation đa lớp\nHơn 160 hiệu ứng kết hợp, tạo keyframe linh hoạt\nVector, bitmap, camera zoom, pan, blur mượt mà\nXuất MP4, GIF, PNG sequence chất lượng cao\nFont tùy chỉnh, màu sắc, gradient, viền, bóng đổ\nĐăng nhập tài khoản để kích hoạt bản mod"
         }
@@ -156,6 +167,7 @@
       "versions": [
         {
           "version": "8.74.0",
+          "date": "1945-09-02",
           "downloadURL": "https://vsacheat.com/download/748SoundCloud_8.74.0_1787476189.ipa",
           "localizedDescription": "Mở khóa toàn bộ quyền lợi Go+\nPhát nhạc chất lượng cao tối đa\nLoại bỏ quảng cáo âm thanh và hình ảnh\nẨn toàn bộ thông báo yêu cầu nâng cấp gói\nSử dụng đầy đủ tính năng trả phí như bản cao cấp"
         }
@@ -168,6 +180,7 @@
       "versions": [
         {
           "version": "30.5.1",
+          "date": "1945-09-02",
           "downloadURL": "https://vsacheat.com/download/722Picsart_30.5.1_1786449473.ipa",
           "localizedDescription": "Mở khóa toàn bộ tính năng cao cấp\nToàn bộ filter, hiệu ứng, sticker Gold độc quyền\nChỉnh sửa ảnh, video chuyên nghiệp không giới hạn\nXóa nền, cắt ghép ảnh bằng AI thông minh\nKho mẫu thiết kế, font chữ, hình nền đầy đủ\nXuất file sắc nét, không Watermark\nKhông quảng cáo, tốc độ ưu tiên"
         }
