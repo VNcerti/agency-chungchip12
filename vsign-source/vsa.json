@@ -726,12 +726,12 @@
   ],
   "news": [
     {
-      "title": "CHỨNG CHỈ P12",
-      "identifier": "apple-certificate",
-      "caption": "Hệ thống chứng chỉ iPhone & iPad\n\nChứng chỉ P12 chuyên nghiệp cho hệ sinh thái Apple. Đăng ký nhanh chóng, bảo mật tuyệt đối, hỗ trợ 24/7.",
+      "title": "Hỗ trợ & Góp ý",
+      "identifier": "support-feedback",
+      "caption": "Nơi hỗ trợ kỹ thuật, trao đổi hỏi đáp, tiếp nhận báo lỗi và ghi nhận những góp ý, đề xuất sửa đổi, bổ sung tính năng cho ứng dụng.",
       "tintColor": "00CAB3",
-      "imageURL": "https://agency.chungchip12.com/img/banner-news1.webp",
-      "url": "https://chungchip12.com",
+      "imageURL": "https://agency.chungchip12.com/img/banner-news3.webp",
+      "url": "https://t.me/talmv",
       "date": "2026-09-11",
       "notify": false
     },
@@ -746,12 +746,12 @@
       "notify": false
     },
     {
-      "title": "Hỗ trợ & Góp ý",
-      "identifier": "support-feedback",
-      "caption": "Nơi hỗ trợ kỹ thuật, trao đổi hỏi đáp, tiếp nhận báo lỗi và ghi nhận những góp ý, đề xuất sửa đổi, bổ sung tính năng cho ứng dụng.",
+      "title": "CHỨNG CHỈ P12",
+      "identifier": "apple-certificate",
+      "caption": "Hệ thống chứng chỉ iPhone & iPad\n\nChứng chỉ P12 chuyên nghiệp cho hệ sinh thái Apple. Đăng ký nhanh chóng, bảo mật tuyệt đối, hỗ trợ 24/7.",
       "tintColor": "00CAB3",
-      "imageURL": "https://agency.chungchip12.com/img/banner-news3.webp",
-      "url": "https://t.me/talmv",
+      "imageURL": "https://agency.chungchip12.com/img/banner-news1.webp",
+      "url": "https://chungchip12.com",
       "date": "2026-09-11",
       "notify": false
     }
