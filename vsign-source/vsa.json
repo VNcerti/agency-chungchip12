@@ -726,11 +726,11 @@
   ],
   "news": [
     {
-      "title": "Apple Certificate",
+      "title": "CHỨNG CHỈ P12",
       "identifier": "apple-certificate",
-      "caption": "Hệ thống chứng chỉ iPhone & iPad\n\nProfessional P12 certificates for the Apple ecosystem. Fast and secure registration, reliable service, and 24/7 dedicated support.",
+      "caption": "Hệ thống chứng chỉ iPhone & iPad\n\nChứng chỉ P12 chuyên nghiệp cho hệ sinh thái Apple. Đăng ký nhanh chóng, bảo mật tuyệt đối, hỗ trợ 24/7.",
       "tintColor": "00CAB3",
-      "imageURL": "https://agency.chungchip12.com/banner-news1.webp",
+      "imageURL": "https://agency.chungchip12.com/img/banner-news1.webp",
       "url": "https://chungchip12.com",
       "date": "2026-09-11",
       "notify": false
