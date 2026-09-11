@@ -734,6 +734,26 @@
       "url": "https://chungchip12.com",
       "date": "2026-09-11",
       "notify": false
+    },
+    {
+      "title": "Cộng đồng chính thức",
+      "identifier": "official-community",
+      "caption": "Nơi cập nhật những tin tức, thông báo và phiên bản mới nhất. Cùng giao lưu, chia sẻ kinh nghiệm, hỗ trợ giải đáp thắc mắc và kết nối với những người dùng khác. Một cộng đồng thân thiện, vui vẻ và cùng nhau xây dựng trải nghiệm ngày càng tốt hơn.",
+      "tintColor": "00CAB3",
+      "imageURL": "https://agency.chungchip12.com/img/banner-news2.webp",
+      "url": "https://t.me/p12certvn",
+      "date": "2026-09-11",
+      "notify": false
+    },
+    {
+      "title": "Hỗ trợ & Góp ý",
+      "identifier": "support-feedback",
+      "caption": "Nơi hỗ trợ kỹ thuật, trao đổi hỏi đáp, tiếp nhận báo lỗi và ghi nhận những góp ý, đề xuất sửa đổi, bổ sung tính năng cho ứng dụng.",
+      "tintColor": "00CAB3",
+      "imageURL": "https://agency.chungchip12.com/img/banner-news3.webp",
+      "url": "https://t.me/talmv",
+      "date": "2026-09-11",
+      "notify": false
     }
   ]
 }
