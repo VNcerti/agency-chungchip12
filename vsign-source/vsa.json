@@ -5,6 +5,135 @@
   "iconURL": "https://ioscert.io.vn/img/vsign.webp",
   "apps": [
     {
+      "name": "Koco Widgets: App Launcher",
+      "developerName": "Vietnam Signing Authority",
+      "iconURL": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/78/a3/6e/78a36e51-7355-65ae-7ec4-d754bd66e319/Placeholder.mill/400x400bb-75.webp",
+      "versions": [
+        {
+          "version": "1.26.0",
+          "date": "2026-09-14",
+          "downloadURL": "https://vsacheat.com/download/767Koco.Widgets_1.26.0_1789380705.ipa",
+          "localizedDescription": "Mở khóa toàn bộ tính năng cao cấp\nYêu cầu hệ thống iOS 17 trở lên\nToàn bộ widget, icon pack độc quyền\nTùy chỉnh Dynamic Island theo phong cách riêng\nWidget trong suốt thật, hòa vào hình nền\nMở app trực tiếp từ widget không qua trung gian\nCập nhật mẫu widget, icon mới liên tục\nKhông quảng cáo, dùng đầy đủ công cụ VIP"
+        }
+      ]
+    },
+    {
+      "name": "CamScanner - PDF Scanner",
+      "developerName": "Vietnam Signing Authority",
+      "iconURL": "https://vsacheat.com/img/logo/camscanner.webp",
+      "versions": [
+        {
+          "version": "7.25.0",
+          "date": "2026-09-14",
+          "downloadURL": "https://vsacheat.com/download/768CamScanner_7.25.0_1789383379.ipa",
+          "localizedDescription": "Mở khóa toàn bộ tính năng quét cao cấp\nChuyển đổi hình ảnh và PDF thành văn bản\nTự động nhận diện và cắt lề tài liệu chuẩn xác\nQuét văn bản với chất lượng độ phân giải cao\nHỗ trợ lưu trữ và chia sẻ file PDF nhanh chóng\nTrích xuất dữ liệu thông minh từ mọi loại giấy tờ"
+        },
+        {
+          "version": "7.22.0",
+          "date": "1945-09-02",
+          "downloadURL": "https://vsacheat.com/download/693CamScanner_7.22.0_1784942792.ipa",
+          "localizedDescription": "Mở khóa toàn bộ tính năng quét cao cấp\nChuyển đổi hình ảnh và PDF thành văn bản\nTự động nhận diện và cắt lề tài liệu chuẩn xác\nQuét văn bản với chất lượng độ phân giải cao\nHỗ trợ lưu trữ và chia sẻ file PDF nhanh chóng\nTrích xuất dữ liệu thông minh từ mọi loại giấy tờ"
+        }
+      ]
+    },
+    {
+      "name": "Gizmo: AI Tutor",
+      "developerName": "Vietnam Signing Authority",
+      "iconURL": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/68/36/7e/68367ef2-dba0-688e-6a37-62da76af78f3/Placeholder.mill/400x400bb-75.webp",
+      "versions": [
+        {
+          "version": "3.2.59",
+          "date": "2026-09-14",
+          "downloadURL": "https://vsacheat.com/download/769Gizmo_3.2.59_1789380387.ipa",
+          "localizedDescription": "Mở khóa toàn bộ tính năng cao cấp\nNhập mọi thứ để tạo thẻ từ vựng nhanh\nHọc tập qua trò chơi, tạo hứng thú\nAI gia sư hỗ trợ học tập mọi lúc\nÔn luyện từ vựng không giới hạn\nTheo dõi tiến độ học tập chi tiết\nKhông quảng cáo, dùng đầy đủ công cụ VIP"
+        }
+      ]
+    },
+    {
+      "name": "iScreen - Widgets & Wallpaper",
+      "developerName": "Vietnam Signing Authority",
+      "iconURL": "https://play-lh.googleusercontent.com/US5Jn7_5ZeTtINcc-Yh6w-2pG_AtDrS7NJX9jSTuv5UORhTKwMkzloqdlXrvpRkhK162FziKGo51j15fhOYz=w240-h480-rw",
+      "versions": [
+        {
+          "version": "5.1.05",
+          "date": "2026-09-14",
+          "downloadURL": "https://vsacheat.com/download/770HiWidget_5.1.05_1789383194.ipa",
+          "localizedDescription": "Mở khóa toàn bộ tính năng cao cấp\nHơn 1000 widget, 500 giao diện độc quyền\nToàn bộ kho hình nền chất lượng cao\nĐầy đủ hiệu ứng ChargingShow khi sạc\nTự do tùy chỉnh màn hình chính cá nhân\nCập nhật giao diện, hình nền liên tục\nXóa sạch quảng cáo mượt mà hơn"
+        }
+      ]
+    },
+    {
+      "name": "InShot",
+      "developerName": "Vietnam Signing Authority",
+      "iconURL": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/93/d7/3a/93d73aec-071d-38fe-5fc5-4f6bd6cfaa06/AppIcon-0-0-1x_U007epad-0-1-0-0-sRGB-85-220.png/512x512bb.jpg",
+      "versions": [
+        {
+          "version": "1.99.0",
+          "date": "2026-09-14",
+          "downloadURL": "https://vsacheat.com/download/771InShot_1.99.0_1789383455.ipa",
+          "localizedDescription": "Xuất video không watermark, chất lượng cao\nSử dụng đầy đủ hiệu ứng, bộ lọc, font chữ và nhãn dán\nKhông quảng cáo, thao tác mượt và nhanh"
+        }
+      ]
+    },
+    {
+      "name": "Picsart Ultra",
+      "developerName": "Vietnam Signing Authority",
+      "iconURL": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/9c/16/f1/9c16f124-163f-194c-caa9-56eb2c172f84/Placeholder.mill/400x400bb-75.webp",
+      "versions": [
+        {
+          "version": "30.7.1",
+          "date": "2026-09-14",
+          "downloadURL": "https://vsacheat.com/download/772Picsart_30.7.1_1789380854.ipa",
+          "localizedDescription": "Mở khóa toàn bộ tính năng cao cấp\nToàn bộ filter, hiệu ứng, sticker Gold độc quyền\nChỉnh sửa ảnh, video chuyên nghiệp không giới hạn\nXóa nền, cắt ghép ảnh bằng AI thông minh\nKho mẫu thiết kế, font chữ, hình nền đầy đủ\nXuất file sắc nét, không Watermark\nKhông quảng cáo, tốc độ ưu tiên"
+        }
+      ]
+    },
+    {
+      "name": "Messenger MOD",
+      "developerName": "Vietnam Signing Authority",
+      "iconURL": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource221/v4/4e/68/ea/4e68ea90-cec4-91df-8760-f4c5d3a72251/Placeholder.mill/400x400bb-75.webp",
+      "versions": [
+        {
+          "version": "578.1.0",
+          "date": "2026-09-14",
+          "downloadURL": "https://vsacheat.com/download/773Messenger.xem.tin.nh.n.xoa_578.1.0_1789380757.ipa",
+          "localizedDescription": "Xem lại tin nhắn đã xóa, đã thu hồi\nKhôi phục nội dung bị gỡ trước đây\nÁp dụng ngay khi cài đặt ứng dụng"
+        }
+      ]
+    },
+    {
+      "name": "Facebook MOD",
+      "developerName": "Vietnam Signing Authority",
+      "iconURL": "https://play-lh.googleusercontent.com/KCMTYuiTrKom4Vyf0G4foetVOwhKWzNbHWumV73IXexAIy5TTgZipL52WTt8ICL-oIo=w480-h960-rw",
+      "versions": [
+        {
+          "version": "578.0.0",
+          "date": "2026-09-14",
+          "downloadURL": "https://vsacheat.com/download/775Facebook.MOD_578.0.0_1789380451.ipa",
+          "localizedDescription": "Cho phép chạy song song nhiều tài khoản\nMỗi tài khoản hoạt động độc lập riêng biệt\nẨn hoàn toàn quảng cáo, xóa bài viết đề xuất gây phiền\nTải video từ bảng tin, Reels và Story dễ dàng\nXem Story ẩn danh, tải Story chất lượng cao\nDọn dẹp bộ nhớ đệm nhanh, app nhẹ và mượt\nPhù hợp bán hàng online, quản lý nhiều tài khoản\nKhông ảnh hưởng Facebook gốc, sử dụng ổn định và an toàn\nĐể bật các tính năng mod: nhấp 3 ngón tay vào màn hình"
+        }
+      ]
+    },
+    {
+      "name": "TickTick\\:To Do List & Calendar",
+      "developerName": "Vietnam Signing Authority",
+      "iconURL": "https://play-lh.googleusercontent.com/JkYolPNuRAlrXEI9vlk-XOid3VFJ0IPjDj2eM_xrriuE3Zu8IX9cuMkI7JOTw1upNxbW=w480-h960-rw",
+      "versions": [
+        {
+          "version": "8.2.01",
+          "date": "2026-09-14",
+          "downloadURL": "https://vsacheat.com/download/776TickTick_8.2.01_1789383317.ipa",
+          "localizedDescription": "Mở khóa toàn bộ tính năng cao cấp\nDanh sách việc cần làm không giới hạn\nLịch thông minh đồng bộ đa thiết bị\nThói quen, Pomodoro, Sổ tay đầy đủ\nLọc, sắp xếp, gắn thẻ ưu tiên linh hoạt\nKhông quảng cáo, theme cao cấp tùy chỉnh"
+        },
+        {
+          "version": "8.0.90",
+          "date": "1945-09-02",
+          "downloadURL": "https://vsacheat.com/download/582TickTick_8.0.90_1781232722.ipa",
+          "localizedDescription": "Mở khóa toàn bộ tính năng cao cấp\nDanh sách việc cần làm không giới hạn\nLịch thông minh đồng bộ đa thiết bị\nThói quen, Pomodoro, Sổ tay đầy đủ\nLọc, sắp xếp, gắn thẻ ưu tiên linh hoạt\nKhông quảng cáo, theme cao cấp tùy chỉnh"
+        }
+      ]
+    },
+    {
       "name": "Candy Crush Soda Saga",
       "developerName": "Vietnam Signing Authority",
       "iconURL": "https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/8d/5d/4d/8d5d4daf-4eb4-7bb3-ddb8-c0da2835a1d1/AppIcon-0-0-1x_U007epad-0-1-85-220.png/512x512bb.jpg",
@@ -174,19 +303,6 @@
           "date": "2026-09-10",
           "downloadURL": "https://vsacheat.com/download/766EPIK_7.4.0_1789034534.ipa",
           "localizedDescription": "Mở khóa toàn bộ tính năng cao cấp\nAI nâng cao, chỉnh sửa thông minh\nHSL, Curves, Split Tone, Grain, Vignette chuyên sâu\nCắt, xoay, lật, phối cảnh, phản chiếu hoàn hảo\nRetouch chân dung AI, làm đẹp da, tóc, trang điểm\nHiệu ứng nghệ thuật, sticker, chữ, cọ vẽ, filter AI\nKhông giới hạn công cụ Pro, dùng đầy đủ\nChưa hiện Pro, đóng ứng dụng và mở lại"
-        }
-      ]
-    },
-    {
-      "name": "CamScanner - PDF Scanner",
-      "developerName": "Vietnam Signing Authority",
-      "iconURL": "https://vsacheat.com/img/logo/camscanner.webp",
-      "versions": [
-        {
-          "version": "7.22.0",
-          "date": "1945-09-02",
-          "downloadURL": "https://vsacheat.com/download/693CamScanner_7.22.0_1784942792.ipa",
-          "localizedDescription": "Mở khóa toàn bộ tính năng quét cao cấp\nChuyển đổi hình ảnh và PDF thành văn bản\nTự động nhận diện và cắt lề tài liệu chuẩn xác\nQuét văn bản với chất lượng độ phân giải cao\nHỗ trợ lưu trữ và chia sẻ file PDF nhanh chóng\nTrích xuất dữ liệu thông minh từ mọi loại giấy tờ"
         }
       ]
     },
@@ -369,19 +485,6 @@
           "date": "1945-09-02",
           "downloadURL": "https://vsacheat.com/download/582PvZ.2_996_1781232793.ipa",
           "localizedDescription": "Tiền xu, kim cương, bạc hà không giới hạn\nMặt trời tăng thay vì giảm khi dùng\nMua sắm cây trồng, nâng cấp thoải mái\nMở khóa toàn bộ thế giới, cấp độ\nXây dựng đội hình phòng thủ cực mạnh\nĐánh bại zombie dễ dàng, vui hơn"
-        }
-      ]
-    },
-    {
-      "name": "TickTick\\:To Do List & Calendar",
-      "developerName": "Vietnam Signing Authority",
-      "iconURL": "https://play-lh.googleusercontent.com/JkYolPNuRAlrXEI9vlk-XOid3VFJ0IPjDj2eM_xrriuE3Zu8IX9cuMkI7JOTw1upNxbW=w480-h960-rw",
-      "versions": [
-        {
-          "version": "8.0.90",
-          "date": "1945-09-02",
-          "downloadURL": "https://vsacheat.com/download/582TickTick_8.0.90_1781232722.ipa",
-          "localizedDescription": "Mở khóa toàn bộ tính năng cao cấp\nDanh sách việc cần làm không giới hạn\nLịch thông minh đồng bộ đa thiết bị\nThói quen, Pomodoro, Sổ tay đầy đủ\nLọc, sắp xếp, gắn thẻ ưu tiên linh hoạt\nKhông quảng cáo, theme cao cấp tùy chỉnh"
         }
       ]
     },
