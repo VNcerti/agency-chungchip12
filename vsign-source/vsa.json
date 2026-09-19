@@ -2,8 +2,26 @@
   "name": "VSign IPA Library",
   "identifier": "com.chungchip12.vsign-source",
   "sourceURL": "https://agency.chungchip12.com/vsign-source/apps.json",
-  "iconURL": "https://ioscert.io.vn/img/vsign.webp",
+  "iconURL": "https://i.imgur.com/qGuaX3J.png",
   "apps": [
+    {
+      "name": "Quantumult X",
+      "developerName": "Vietnam Signing Authority",
+      "iconURL": "https://is1-ssl.mzstatic.com/image/thumb/PurpleSource211/v4/9a/fa/ee/9afaeee5-08fb-38c2-07ba-1cb2effe99d5/Placeholder.mill/400x400bb-75.webp",
+      "versions": [
+        {
+          "version": "1.8.0",
+          "date": "2026-09-19",
+          "downloadURL": "https://vsacheat.com/download/787Quantumult.X.VSign.download_1.8.0_1789834764.ipa",
+          "localizedDescription": "Mở khóa bản trả phí 299.000đ trên AppStore\nSử dụng đầy đủ công cụ mạng nâng cao\nHỗ trợ Proxy, Rewrite, Script mạnh mẽ\nChặn quảng cáo và theo dõi hiệu quả\nQuản lý kết nối ổn định, tối ưu tốc độ\nKhông cần mua gói trên App Store\nKhông quảng cáo, dùng trọn vẹn tính năng\nBắt buộc ký chứng chỉ hỗ trợ AppGroup, VPN"
+        }
+      ],
+      "screenshotURLs": [
+        "https://is1-ssl.mzstatic.com/image/thumb/Purple113/v4/65/04/d1/6504d15f-eb22-526e-1055-352290c0feb9/pr_source.png/460x996bb.webp",
+        "https://is1-ssl.mzstatic.com/image/thumb/Purple123/v4/e2/30/68/e230680f-1bff-498a-8cee-52a231c637c7/pr_source.png/460x996bb.webp",
+        "https://is1-ssl.mzstatic.com/image/thumb/Purple113/v4/1d/37/98/1d37987c-033f-d54d-1b25-9ee2e0110ebd/pr_source.png/460x996bb.webp"
+      ]
+    },
     {
       "name": "Koco Widgets: App Launcher",
       "developerName": "Vietnam Signing Authority",
