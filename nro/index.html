@@ -1,0 +1,446 @@
+<!doctype html>
+<html lang="vi">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#0a0c1a">
+  <meta name="description" content="CHIẾN BINH VEGETA - CHỨNG CHỈ P12. BETA TEST - SIGNED BY CHUNGCHIP12.COM. Tải phiên bản 1.0 cho iPhone và iPad.">
+  <meta property="og:title" content="CHIẾN BINH VEGETA — Sẵn sàng nhập cuộc">
+  <meta property="og:description" content="Tải CHIẾN BINH VEGETA cho iPhone và iPad. Phiên bản 1.0 · 37,3 MB.">
+  <meta property="og:image" content="https://nroha.fun/ios/assets/app-icon.png">
+  <meta property="og:url" content="https://nroha.fun/ios/">
+  <link rel="canonical" href="https://nroha.fun/ios/">
+  <link rel="icon" type="image/png" href="https://nroha.fun/ios/assets/app-icon.png">
+  <link rel="apple-touch-icon" href="https://nroha.fun/ios/assets/app-icon.png">
+  <title>CHIẾN BINH VEGETA — Cài đặt cho iOS</title>
+  <style>
+    /* ===== DRAGON BALL VIBE — 7 NGỌC RỒNG ===== */
+    :root {
+      color-scheme: dark;
+      --bg: #07080f;
+      --bg2: #0d0f1e;
+      --text: #f5f3e9;
+      --muted: #b8bdd0;
+      --accent: #ffb347;
+      --accent2: #ff6b35;
+      --accent3: #ffd93d;
+      --line: #ffffff14;
+      --star: #ff4d4d;
+      --star-glow: #ff2e2e;
+      --orb: #ffb347;
+      --orb2: #ff8c00;
+      --orb3: #ffd93d;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      background: var(--bg);
+      color: var(--text);
+    }
+    * { box-sizing: border-box; }
+    html { scroll-behavior: smooth; scroll-padding-top: 28px; }
+    body {
+      margin: 0;
+      background:
+        radial-gradient(ellipse at 88% 18%, #ff8c0015 0, transparent 50%),
+        radial-gradient(ellipse at 12% 82%, #ff4d4d0c 0, transparent 45%),
+        radial-gradient(ellipse at 50% 50%, #1a1030 0, transparent 70%),
+        var(--bg);
+      overflow-x: hidden;
+    }
+    a { color: inherit; text-decoration: none; }
+    svg { display: block; flex-shrink: 0; }
+    a:focus-visible, summary:focus-visible { outline: 3px solid var(--accent); outline-offset: 6px; }
+    .wrap { width: calc(100% - 96px); max-width: 1120px; margin: 0 auto; }
+
+    /* ===== 7 SAO RỒNG — DECOR ===== */
+    .dragon-stars {
+      position: fixed; inset: 0; pointer-events: none; z-index: 0; overflow: hidden;
+    }
+    .dragon-stars span {
+      position: absolute; font-size: 14px; opacity: 0.12; color: var(--star);
+      animation: floatStar 18s ease-in-out infinite;
+    }
+    .dragon-stars span:nth-child(1) { left: 8%; top: 12%; animation-delay: 0s; }
+    .dragon-stars span:nth-child(2) { left: 22%; top: 68%; animation-delay: -3s; }
+    .dragon-stars span:nth-child(3) { left: 78%; top: 22%; animation-delay: -6s; }
+    .dragon-stars span:nth-child(4) { left: 91%; top: 72%; animation-delay: -9s; }
+    .dragon-stars span:nth-child(5) { left: 45%; top: 88%; animation-delay: -12s; }
+    .dragon-stars span:nth-child(6) { left: 65%; top: 8%; animation-delay: -15s; }
+    .dragon-stars span:nth-child(7) { left: 38%; top: 38%; animation-delay: -7s; }
+    @keyframes floatStar {
+      0%, 100% { transform: translateY(0) rotate(0deg) scale(1); opacity: 0.1; }
+      25% { opacity: 0.22; }
+      50% { transform: translateY(-28px) rotate(180deg) scale(1.4); opacity: 0.18; }
+      75% { opacity: 0.25; }
+    }
+
+    /* ===== NAV ===== */
+    .nav {
+      min-height: 104px; display: flex; align-items: center; justify-content: space-between;
+      gap: 20px; border-bottom: 1px solid var(--line); position: relative; z-index: 5;
+    }
+    .brand { display: inline-flex; align-items: center; gap: 12px; }
+    .brand img { width: 42px; height: 42px; border-radius: 13px; box-shadow: 0 0 24px #ff8c0033; }
+    .wordmark {
+      font-size: 24px; font-weight: 850; letter-spacing: -.06em;
+      background: linear-gradient(135deg, var(--accent3), var(--accent), var(--accent2));
+      -webkit-background-clip: text; -webkit-text-fill-color: transparent;
+      background-clip: text; filter: drop-shadow(0 0 18px #ff8c0044);
+    }
+    .wordmark span { color: var(--accent); -webkit-text-fill-color: var(--accent); }
+    .nav-link {
+      display: inline-flex; align-items: center; gap: 10px; font-size: 13px;
+      color: #d2d5ca; padding: 12px 0 12px 12px; transition: color .2s;
+    }
+    .nav-link:hover { color: var(--accent3); }
+    .nav-link svg { width: 16px; height: 16px; }
+
+    /* ===== HERO ===== */
+    .hero {
+      display: grid; grid-template-columns: 1.12fr 1fr; gap: 32px;
+      align-items: center; padding: 76px 0 80px; position: relative; z-index: 2;
+    }
+    .hero-copy { position: relative; z-index: 1; min-width: 0; }
+    .eyebrow {
+      display: flex; align-items: center; gap: 10px; margin: 0 0 24px;
+      color: var(--accent); font-size: 11px; font-weight: 750;
+      letter-spacing: .15em; text-transform: uppercase;
+    }
+    .eyebrow::before { content: ""; height: 2px; width: 24px; background: linear-gradient(90deg, var(--accent2), var(--accent3)); }
+    h1 {
+      margin: 0; font-size: 76px; font-size: clamp(52px, 6.6vw, 82px);
+      font-weight: 850; line-height: 1.03; letter-spacing: -.065em;
+    }
+    h1 span {
+      background: linear-gradient(135deg, var(--accent3), var(--accent), var(--accent2));
+      -webkit-background-clip: text; -webkit-text-fill-color: transparent;
+      background-clip: text; filter: drop-shadow(0 0 30px #ff8c0044);
+    }
+    .intro {
+      max-width: 380px; color: var(--muted); font-size: 16px; line-height: 1.8;
+      margin: 24px 0 28px;
+    }
+    .specs { display: flex; margin: 0 0 32px; padding: 0; }
+    .specs div { padding: 0 22px; border-left: 1px solid var(--line); }
+    .specs div:first-child { padding-left: 0; border: 0; }
+    .specs dt { color: #a4ac9e; font-size: 11px; margin-bottom: 7px; }
+    .specs dd { margin: 0; font-size: 15px; font-weight: 650; white-space: nowrap; }
+    .specs dd.version-highlight {
+      background: linear-gradient(135deg, var(--accent3), var(--accent));
+      -webkit-background-clip: text; -webkit-text-fill-color: transparent;
+      background-clip: text; font-weight: 800;
+    }
+
+    /* ===== INSTALL BUTTON — DBZ STYLE ===== */
+    .install {
+      display: inline-flex; align-items: center; justify-content: space-between;
+      gap: 28px; min-height: 70px; width: 310px; max-width: 100%;
+      padding: 16px 22px; border-radius: 14px;
+      background: linear-gradient(135deg, var(--accent3), var(--accent), var(--accent2));
+      color: #1a1006;
+      box-shadow: 0 6px 0 #9a591a, 0 16px 32px #ff950022, 0 0 60px #ff8c0022;
+      transition: transform .18s, background .18s, box-shadow .18s;
+      position: relative; overflow: hidden;
+    }
+    .install::before {
+      content: ""; position: absolute; inset: 0;
+      background: linear-gradient(105deg, transparent 40%, #ffffff44 50%, transparent 60%);
+      transform: translateX(-120%); transition: transform .6s;
+    }
+    .install:hover::before { transform: translateX(120%); }
+    .install:hover {
+      background: linear-gradient(135deg, #ffe066, #ffb347, #ff7b2e);
+      transform: translateY(-2px);
+      box-shadow: 0 8px 0 #9a591a, 0 18px 32px #ff950033, 0 0 80px #ff8c0044;
+    }
+    .install:active { transform: translateY(4px); box-shadow: 0 2px 0 #9a591a; }
+    .install strong, .install small { display: block; }
+    .install strong { font-size: 17px; font-weight: 800; }
+    .install small { margin-top: 4px; font-size: 11px; color: #63411e; }
+    .install svg { width: 24px; height: 24px; }
+
+    .secondary { display: flex; align-items: center; gap: 18px; margin-top: 24px; color: #b6bdaf; font-size: 12px; }
+    .download { display: inline-flex; align-items: center; gap: 6px; padding: 8px 0; color: #dedfd4; transition: color .2s; }
+    .download:hover { color: var(--accent3); }
+    .download svg { width: 13px; height: 13px; }
+    .secondary .divider { width: 3px; height: 3px; background: #687260; border-radius: 50%; }
+
+    /* ===== VISUAL — 7 STAR DRAGON BALL ===== */
+    .visual {
+      position: relative; min-width: 0; height: 490px;
+      display: flex; justify-content: center; align-items: center; isolation: isolate;
+    }
+    .orbit {
+      position: absolute; width: 430px; height: 430px; max-width: 100%;
+      border: 1px solid #ffb34733; border-radius: 50%; z-index: -1;
+      box-shadow: 0 0 80px #ff8c0011, inset 0 0 80px #ff4d4d08;
+    }
+    .orbit::before {
+      position: absolute; content: ""; inset: 27px;
+      border: 1px dashed #ffb34733; border-radius: 50%;
+    }
+    .orbit::after {
+      content: ""; position: absolute; left: 20px; top: 105px;
+      width: 10px; height: 10px; background: var(--star);
+      border-radius: 50%; box-shadow: 0 0 16px var(--star-glow), 370px 155px 0 -2px var(--accent3);
+    }
+    .poster {
+      width: 330px; max-width: 78%; margin: 0; padding: 9px 9px 0;
+      transform: rotate(5deg); border: 1px solid #ffb34744; border-radius: 26px;
+      background: linear-gradient(160deg, #fff9e6, #f5e6c8);
+      box-shadow: 18px 28px 70px #0007, -9px -9px 0 #ff8c0008, 0 0 50px #ff8c0022;
+      transition: transform .4s ease, box-shadow .4s ease;
+    }
+    .poster:hover { transform: rotate(2deg) scale(1.02); box-shadow: 18px 28px 80px #0009, 0 0 80px #ff8c0033; }
+    .poster img { display: block; width: 100%; height: auto; aspect-ratio: 1; border-radius: 18px; object-fit: cover; }
+    .poster figcaption {
+      display: flex; justify-content: space-between; align-items: center;
+      padding: 15px 8px; color: #2a1f0e; font-size: 10px; font-weight: 750; letter-spacing: .12em;
+    }
+    .poster figcaption strong {
+      font-size: 14px; letter-spacing: -.03em;
+      background: linear-gradient(135deg, #d97706, #b45309);
+      -webkit-background-clip: text; -webkit-text-fill-color: transparent;
+      background-clip: text;
+    }
+    .edition {
+      position: absolute; top: 27px; right: 8px; display: flex; gap: 8px;
+      align-items: center; color: #c9b88a; font-size: 10px; letter-spacing: .16em;
+    }
+    .edition::before { content: "✦"; font-size: 22px; color: var(--accent3); font-weight: 300; }
+    .version-sticker {
+      position: absolute; bottom: 37px; left: 7px; padding: 13px 18px;
+      border: 1px solid #ffb34744; border-radius: 12px;
+      background: linear-gradient(135deg, #1a1408, #2a1f0e);
+      box-shadow: 0 10px 25px #0003, 0 0 30px #ff8c0011;
+      transform: rotate(-6deg);
+    }
+    .version-sticker span { display: block; font-size: 9px; letter-spacing: .15em; color: #c9b88a; margin-bottom: 5px; }
+    .version-sticker strong {
+      font-size: 20px; letter-spacing: -.04em;
+      background: linear-gradient(135deg, var(--accent3), var(--accent));
+      -webkit-background-clip: text; -webkit-text-fill-color: transparent;
+      background-clip: text;
+    }
+    .spark { position: absolute; top: 85px; left: 25px; color: var(--accent3); font-size: 36px; font-weight: 200; transform: rotate(14deg); filter: drop-shadow(0 0 12px #ffd93d88); }
+    .side-label {
+      position: absolute; right: 0; bottom: 78px; writing-mode: vertical-rl;
+      color: #8e9d7e; font-size: 9px; letter-spacing: .25em;
+    }
+
+    /* ===== GUIDE ===== */
+    .guide { padding: 48px 0 50px; border-top: 1px solid var(--line); position: relative; z-index: 2; }
+    .section-title { display: flex; justify-content: space-between; align-items: baseline; gap: 20px; }
+    .section-title h2 {
+      margin: 0; font-size: 28px; letter-spacing: -.045em;
+      background: linear-gradient(135deg, var(--accent3), var(--accent));
+      -webkit-background-clip: text; -webkit-text-fill-color: transparent;
+      background-clip: text;
+    }
+    .section-title p { margin: 0; font-size: 12px; color: #99a28f; }
+    .steps { list-style: none; display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 36px; padding: 0; margin: 32px 0 0; }
+    .step-number {
+      display: inline-flex; align-items: center; gap: 12px; color: var(--accent);
+      font-size: 11px; font-weight: 700; letter-spacing: .08em;
+    }
+    .step-number::after { content: ""; width: 34px; height: 1px; background: #ffad434a; }
+    .steps h3 { margin: 14px 0 9px; font-size: 15px; font-weight: 650; }
+    .steps p { margin: 0; color: #a7afa0; font-size: 13px; line-height: 1.85; }
+
+    /* ===== HELP ===== */
+    .help { display: grid; grid-template-columns: 1fr 1fr; gap: 40px; padding-bottom: 36px; position: relative; z-index: 2; }
+    details { border-top: 1px solid var(--line); }
+    summary {
+      display: flex; align-items: center; justify-content: space-between; gap: 20px;
+      min-height: 64px; padding: 15px 0; cursor: pointer; list-style: none;
+      font-size: 13px; color: #d1d6c7; transition: color .2s;
+    }
+    summary:hover { color: var(--accent3); }
+    summary::-webkit-details-marker { display: none; }
+    summary::after { content: "+"; font-size: 22px; font-weight: 300; color: #8d9a82; }
+    details[open] summary::after { content: "−"; }
+    .answer { margin: 0; padding-bottom: 22px; color: #a7afa0; font-size: 12px; line-height: 1.9; overflow-wrap: anywhere; }
+    .answer strong { color: var(--accent3); font-weight: 600; }
+
+    /* ===== FOOTER ===== */
+    footer {
+      display: flex; align-items: center; justify-content: space-between; gap: 24px;
+      padding: 25px 0 32px; border-top: 1px solid var(--line);
+      color: #9ba58e; font-size: 10px; line-height: 1.8; position: relative; z-index: 2;
+    }
+    .footer-brand {
+      font-weight: 750; letter-spacing: .13em;
+      background: linear-gradient(135deg, var(--accent3), var(--accent));
+      -webkit-background-clip: text; -webkit-text-fill-color: transparent;
+      background-clip: text;
+    }
+    footer p { margin: 0; text-align: right; }
+
+    /* ===== BETA BADGE ===== */
+    .beta-badge {
+      display: inline-flex; align-items: center; gap: 8px;
+      margin-top: 18px; padding: 8px 16px; border-radius: 999px;
+      background: linear-gradient(135deg, #ff4d4d22, #ff8c0022);
+      border: 1px solid #ff4d4d44;
+      font-size: 10px; letter-spacing: .14em; font-weight: 700;
+      color: var(--accent3); text-transform: uppercase;
+    }
+    .beta-badge::before {
+      content: ""; width: 6px; height: 6px; border-radius: 50%;
+      background: var(--star); box-shadow: 0 0 12px var(--star-glow);
+      animation: pulse 2s ease-in-out infinite;
+    }
+    @keyframes pulse { 0%, 100% { opacity: 1; transform: scale(1); } 50% { opacity: .5; transform: scale(1.3); } }
+
+    /* ===== RESPONSIVE ===== */
+    @media (max-width: 900px) {
+      .wrap { width: calc(100% - 56px); }
+      .hero { gap: 12px; padding: 60px 0; }
+      h1 { font-size: 60px; }
+      .visual { height: 400px; }
+      .poster { max-width: 85%; }
+      .edition { top: 0; }
+      .version-sticker { bottom: 10px; left: 0; }
+      .orbit::after { box-shadow: none; }
+      .spark { left: 0; top: 38px; }
+      .side-label { right: -12px; bottom: 43px; }
+      .steps { gap: 24px; }
+      .specs div { padding: 0 15px; }
+    }
+    @media (max-width: 640px) {
+      .wrap { width: calc(100% - 44px); }
+      .nav { min-height: 82px; }
+      .brand { gap: 9px; }
+      .brand img { width: 35px; height: 35px; border-radius: 11px; }
+      .wordmark { font-size: 21px; }
+      .nav-link { font-size: 12px; gap: 7px; }
+      .hero { grid-template-columns: 1fr; padding: 42px 0 38px; gap: 16px; }
+      .eyebrow { margin-bottom: 20px; font-size: 10px; }
+      h1 { font-size: 66px; font-size: clamp(50px, 14.5vw, 76px); }
+      .intro { font-size: 14px; margin: 20px 0 24px; max-width: 340px; }
+      .specs { margin-bottom: 28px; }
+      .specs div { padding: 0 24px; }
+      .specs dt { font-size: 10px; }
+      .specs dd { font-size: 14px; }
+      .install { width: 100%; }
+      .secondary { justify-content: center; gap: 16px; margin-top: 20px; }
+      .visual { height: 400px; width: 100%; max-width: 420px; margin: 6px auto 0; }
+      .poster { width: 275px; max-width: 78%; border-radius: 24px; }
+      .poster figcaption { padding: 14px 7px; font-size: 9px; }
+      .orbit { width: 350px; height: 350px; }
+      .spark { top: 45px; left: 5px; }
+      .edition { top: 12px; right: 7px; }
+      .side-label { right: 1px; bottom: 45px; }
+      .version-sticker { left: 4px; bottom: 14px; padding: 11px 15px; }
+      .version-sticker strong { font-size: 18px; }
+      .guide { padding: 32px 0; }
+      .section-title { display: block; }
+      .section-title h2 { font-size: 26px; }
+      .section-title p { margin-top: 9px; font-size: 11px; }
+      .steps { grid-template-columns: 1fr; gap: 25px; margin-top: 30px; }
+      .steps li { display: grid; grid-template-columns: 38px 1fr; gap: 8px; }
+      .step-number { align-self: start; margin-top: 3px; }
+      .step-number::after { display: none; }
+      .steps h3 { margin: 0 0 7px; }
+      .steps p { font-size: 12px; max-width: 350px; }
+      .help { grid-template-columns: 1fr; gap: 0; padding-bottom: 8px; }
+      summary { min-height: 62px; }
+      footer { padding: 23px 0 30px; align-items: flex-start; }
+      footer p { max-width: 200px; font-size: 9px; }
+    }
+    @media (max-width: 350px) {
+      .wrap { width: calc(100% - 36px); }
+      .specs div { padding: 0 17px; }
+      .secondary { font-size: 11px; gap: 10px; }
+      .visual { height: 350px; }
+      .orbit { height: 290px; width: 290px; }
+      .edition { top: 0; }
+    }
+    @media (prefers-reduced-motion: reduce) {
+      html { scroll-behavior: auto; }
+      .install { transition: none; }
+      .install::before { display: none; }
+      .dragon-stars span { animation: none; }
+      .poster { transition: none; }
+    }
+  </style>
+</head>
+<body>
+  <!-- 7 NGỌC RỒNG DECOR -->
+  <div class="dragon-stars" aria-hidden="true">
+    <span>★</span><span>★</span><span>★</span><span>★</span><span>★</span><span>★</span><span>★</span>
+  </div>
+
+  <header class="wrap nav">
+    <a class="brand" href="#" aria-label="CHIẾN BINH VEGETA, đầu trang">
+      <img src="https://nroha.fun/ios/assets/app-icon.png" alt="" width="42" height="42">
+      <span class="wordmark">CHIẾN BINH VEGETA<span>.</span></span>
+    </a>
+    <nav aria-label="Điều hướng"><a class="nav-link" href="#huong-dan">Hướng dẫn cài
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true"><path d="M7 17 17 7M7 7h10v10"/></svg>
+    </a></nav>
+  </header>
+
+  <main class="wrap">
+    <section class="hero" aria-labelledby="hero-title">
+      <div class="hero-copy">
+        <p class="eyebrow">CHIẾN BINH VEGETA · Phiên bản iOS</p>
+        <h1 id="hero-title">CHIẾN BINH<br><span>VEGETA.</span></h1>
+        <p class="intro">Hành trình CHIẾN BINH VEGETA, ngay trên iPhone và iPad của bạn. Mở bằng Safari và bắt đầu cài đặt. Chứng chỉ P12 — Signed by CHUNGCHIP12.COM.</p>
+        <dl class="specs">
+          <div><dt>Phiên bản</dt><dd class="version-highlight">1.0</dd></div>
+          <div><dt>Dung lượng</dt><dd>37,3 MB</dd></div>
+          <div><dt>Tương thích</dt><dd>iOS 12+</dd></div>
+        </dl>
+        <a class="install" href="itms-services://?action=download-manifest&url=https%3A%2F%2Fioscert.io.vn%2Finstall%2FChienBinhVegeta%2Fmanifest.plist">
+          <span><strong>Cài đặt CHIẾN BINH VEGETA</strong><small>Dành cho iPhone &amp; iPad</small></span>
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 3v12m-5-5 5 5 5-5M4 16v4h16v-4"/></svg>
+        </a>
+        <div class="secondary">
+          <a class="download" href="NroHan-enterprise.ipa">Tải file IPA
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" aria-hidden="true"><path d="M7 17 17 7M7 7h10v10"/></svg>
+          </a>
+          <span class="divider" aria-hidden="true"></span><span>Không cần đăng nhập</span>
+        </div>
+        <div class="beta-badge">BETA TEST — SIGNED BY CHUNGCHIP12.COM</div>
+      </div>
+      <div class="visual">
+        <div class="orbit" aria-hidden="true"></div>
+        <span class="edition" aria-hidden="true">iOS EDITION</span>
+        <span class="spark" aria-hidden="true">✦</span>
+        <figure class="poster">
+          <img src="https://nroha.fun/ios/assets/app-icon.png" alt="Biểu tượng game CHIẾN BINH VEGETA" width="1024" height="1024" fetchpriority="high">
+          <figcaption><strong>CHIẾN BINH VEGETA</strong><span>THE ADVENTURE AWAITS</span></figcaption>
+        </figure>
+        <div class="version-sticker" aria-hidden="true"><span>READY TO PLAY</span><strong>Phiên bản 1.0</strong></div>
+        <span class="side-label" aria-hidden="true">IPHONE &amp; IPAD / VEGETA</span>
+      </div>
+    </section>
+
+    <section id="huong-dan" class="guide" aria-labelledby="guide-title">
+      <div class="section-title"><h2 id="guide-title">Vào game trong 3 bước.</h2><p>Lần đầu cài đặt? Bắt đầu từ đây.</p></div>
+      <ol class="steps">
+        <li><span class="step-number" aria-hidden="true">01</span><div><h3>Mở bằng Safari</h3><p>Mở link trang này trên Safari của iPhone hoặc iPad để dùng nút cài đặt.</p></div></li>
+        <li><span class="step-number" aria-hidden="true">02</span><div><h3>Chạm để cài đặt</h3><p>Nhấn “Cài đặt CHIẾN BINH VEGETA”, xác nhận rồi về màn hình chính để theo dõi tiến trình.</p></div></li>
+        <li><span class="step-number" aria-hidden="true">03</span><div><h3>Tin cậy nhà phát triển</h3><p>Nếu được yêu cầu, vào Cài đặt → Cài đặt chung → VPN &amp; Quản lý thiết bị để xác nhận tin cậy.</p></div></li>
+      </ol>
+    </section>
+
+    <section class="help" aria-label="Trợ giúp cài đặt">
+      <details>
+        <summary>iPhone báo nhà phát triển chưa tin cậy?</summary>
+        <p class="answer">Trong <strong>Cài đặt → Cài đặt chung → VPN &amp; Quản lý thiết bị</strong>, chọn nhà phát triển <strong>RAKUTEN SECURITIES,INC.</strong> và làm theo hướng dẫn trên thiết bị. iOS 18 trở lên có thể yêu cầu khởi động lại. Sau đó mở lại CHIẾN BINH VEGETA.</p>
+      </details>
+      <details>
+        <summary>Thông tin chứng chỉ &amp; hạn sử dụng</summary>
+        <p class="answer">Nhà phát triển trên chứng chỉ: <strong>RAKUTEN SECURITIES,INC.</strong><br>Profile Enterprise hết hạn: <strong>05/11/2026</strong>.<br>Chứng chỉ P12 — Beta test signed by <strong>CHUNGCHIP12.COM</strong>.<br>Việc cài đặt còn phụ thuộc trạng thái chứng chỉ và xác thực của Apple.</p>
+      </details>
+    </section>
+  </main>
+
+  <footer class="wrap">
+    <span class="footer-brand">CHIẾN BINH VEGETA / iOS</span>
+    <p>Phiên bản 1.0<br>Bản Enterprise dành cho phân phối nội bộ của tổ chức.<br>Beta test — Signed by CHUNGCHIP12.COM</p>
+  </footer>
+
+<script type="module" src="https://static.cloudflareinsights.com/beacon.min.js/vce701823e78c4301a35b7e07294d87301792088814092" integrity="sha512-UKNk8GbxkABxKcXYuLkO16EleLGUkcvJWtpSNmExE0Too3ZaFAxTscNWEc1OdAv5/BikHawapSCaiD2XCmp+Bw==" data-cf-beacon='{"version":"2024.11.0","token":"ee1e7d9f9906472a9d66167f24c46794","r":1,"spa":2}' crossorigin="anonymous"></script>
+</body>
+</html>
