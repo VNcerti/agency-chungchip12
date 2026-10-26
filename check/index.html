@@ -228,22 +228,6 @@ body{
   0%  { background-position: 0% 50%; }
   100%{ background-position: 100% 50%; }
 }
-.hero p{
-  margin:18px auto 0;
-  max-width:56ch;
-  color:var(--text-1);
-  font-size:clamp(15px, 1.8vw, 17px);
-  line-height:1.62;
-  letter-spacing:-.005em;
-}
-.hero code{
-  font-family:var(--mono);
-  font-size:.86em;
-  padding:2px 6px; border-radius:6px;
-  background: rgba(0,113,227,.07);
-  color:#1c53b8;
-  border:1px solid rgba(0,113,227,.12);
-}
 
 /* ============================================================
    Cards & surfaces — Apple glass
@@ -622,15 +606,15 @@ body{
 .list-empty strong{ display:block; color:var(--text-0); font-size:15px; margin-bottom:4px }
 
 /* ============================================================
-   Footer — premium
+   Footer — premium & mobile-friendly
    ============================================================ */
 .site-footer{
-  margin-top: clamp(48px, 7vw, 84px);
-  padding: clamp(28px, 4vw, 44px) clamp(20px, 3vw, 36px) clamp(22px, 3vw, 30px);
+  margin-top: clamp(44px, 7vw, 80px);
+  padding: clamp(24px, 4vw, 40px) clamp(18px, 3vw, 34px) clamp(20px, 3vw, 28px);
   border-radius: var(--radius-2xl);
   background:
-    linear-gradient(180deg, rgba(255,255,255,.72), rgba(255,255,255,.5));
-  border:1px solid rgba(255,255,255,.7);
+    linear-gradient(180deg, rgba(255,255,255,.75), rgba(255,255,255,.52));
+  border:1px solid rgba(255,255,255,.72);
   box-shadow: var(--shadow-lg), var(--shadow-glow);
   backdrop-filter: blur(30px) saturate(180%);
   -webkit-backdrop-filter: blur(30px) saturate(180%);
@@ -642,15 +626,19 @@ body{
   position:absolute; top:0; left:0; right:0; height:1px;
   background: linear-gradient(90deg, transparent, rgba(255,255,255,.95), transparent);
 }
+
 .footer-top{
-  display:flex; align-items:flex-start; justify-content:space-between; gap:24px; flex-wrap:wrap;
-  padding-bottom: 22px;
+  display:flex; align-items:flex-start; justify-content:space-between;
+  gap:24px; flex-wrap:wrap;
+  padding-bottom: 20px;
   border-bottom: 1px solid var(--stroke);
 }
-.footer-brand-block{ min-width:0; flex:1 1 280px }
+
+.footer-brand-block{ min-width:0; flex:1 1 260px }
 .footer-brand-name{
   display:flex; align-items:center; gap:10px;
-  font-size:16px; font-weight:750; letter-spacing:-.02em; color:var(--text-0);
+  font-size:15.5px; font-weight:750; letter-spacing:-.02em; color:var(--text-0);
+  line-height:1.3;
 }
 .footer-brand-name .mark{
   width:28px;height:28px;flex:none;
@@ -663,8 +651,9 @@ body{
 .footer-brand-name .mark svg{ width:15px; height:15px }
 .footer-tagline{
   margin-top:8px;
-  font-size:13px; color:var(--text-2); line-height:1.55; max-width:38ch;
+  font-size:12.5px; color:var(--text-2); line-height:1.55; max-width:42ch;
 }
+
 .footer-badges{
   display:flex; flex-wrap:wrap; gap:8px; align-items:center; flex:none;
 }
@@ -672,7 +661,7 @@ body{
   display:inline-flex; align-items:center; gap:6px;
   padding:6px 11px; border-radius:999px;
   font-size:11.5px; font-weight:650;
-  background: rgba(255,255,255,.75);
+  background: rgba(255,255,255,.78);
   border:1px solid var(--stroke);
   color: var(--text-1);
   box-shadow: var(--shadow-xs);
@@ -683,23 +672,33 @@ body{
 .fbadge.ok svg{ color: var(--ok) }
 
 .footer-meta{
-  padding-top: 20px;
-  display:flex; align-items:center; justify-content:space-between; gap:14px; flex-wrap:wrap;
+  padding-top: 16px;
+  display:flex; align-items:center; justify-content:space-between;
+  gap:12px; flex-wrap:wrap;
   font-size:12.5px; color:var(--text-2);
 }
-.footer-meta-group{ display:flex; align-items:center; gap:8px; flex-wrap:wrap }
-.footer-meta .dot-sep{ opacity:.45; font-size:10px }
+.footer-meta-group{
+  display:flex; align-items:center; gap:7px; flex-wrap:wrap;
+  min-width:0;
+}
+.footer-meta .dot-sep{ opacity:.45; font-size:10px; line-height:1 }
 .footer-meta .version{
   font-family:var(--mono);
-  font-size:11.5px; font-weight:600;
+  font-size:11px; font-weight:600;
   padding:3px 8px; border-radius:6px;
   background: rgba(0,113,227,.07);
   border:1px solid rgba(0,113,227,.14);
   color:#1c53b8;
   letter-spacing:0;
+  white-space:nowrap;
 }
 .footer-meta .credit{ color: var(--text-2) }
 .footer-meta .credit strong{ color: var(--text-1); font-weight:650 }
+.footer-meta .protected{
+  display:inline-flex; align-items:center; gap:6px;
+  color:var(--text-1); font-weight:650;
+}
+.footer-meta .protected svg{ width:13px; height:13px; color:var(--accent-1) }
 
 /* ============================================================
    Toast
@@ -723,6 +722,7 @@ body{
   backdrop-filter: blur(16px);
   -webkit-backdrop-filter: blur(16px);
   animation: toastIn .35s var(--ease-soft) both;
+  max-width: 100%;
 }
 .toast.is-out{ animation: toastOut .3s var(--ease-soft) both }
 .toast svg{ width:15px; height:15px; flex:none }
@@ -770,9 +770,15 @@ body{
   .row{ padding: 12px 13px; gap:11px }
   .row-state{ display:none }
   .row-index{ display:none }
-  .footer-top{ flex-direction:column; gap:18px }
+
+  /* Footer mobile */
+  .site-footer{ border-radius: var(--radius-xl); padding: 22px 18px 20px; }
+  .footer-top{ flex-direction:column; gap:18px; padding-bottom:16px }
   .footer-badges{ width:100% }
-  .footer-meta{ flex-direction:column; align-items:flex-start; gap:12px }
+  .footer-meta{ flex-direction:column; align-items:flex-start; gap:10px }
+  .footer-meta-group{ width:100% }
+  .footer-brand-name{ font-size:15px }
+  .footer-tagline{ font-size:12.5px }
 }
 @media (max-width: 420px){
   .brand-sub{ display:none }
@@ -780,6 +786,9 @@ body{
   .udid-value{ font-size: 14px }
   .seg-btn{ font-size:12px }
   .stat-value{ font-size: 26px }
+  .fbadge{ font-size:11px; padding:5px 9px }
+  .footer-meta{ font-size:11.5px }
+  .footer-meta .version{ font-size:10.5px }
 }
 
 /* ============================================================
@@ -825,7 +834,7 @@ body{
     </div>
     <div class="header-badge" aria-hidden="true">
       <span class="dot"></span>
-      UDID lookup
+      Permissions
     </div>
   </header>
 
@@ -839,7 +848,6 @@ body{
       Bảo mật &amp; minh bạch
     </span>
     <h1 id="hero-title">Kiểm tra quyền chứng chỉ <span class="grad">Apple theo UDID</span></h1>
-    <p>Tra cứu danh sách entitlement được cấp cho thiết bị. Kết quả được hiển thị khi truy cập đúng đường dẫn <code>/check</code> với tham số <code>udid</code> hợp lệ.</p>
   </section>
 
   <!-- ========================= STATE: WAITING / ERROR ========================= -->
@@ -853,7 +861,7 @@ body{
       </div>
       <h2 id="waitTitle">Chưa có UDID để tra cứu</h2>
       <p>Truy cập đường dẫn kiểm tra với tham số <code>udid</code> hợp lệ để xem danh sách quyền chứng chỉ.</p>
-      <div class="hint">chungchip12.com</div>
+      <div class="hint">/check?udid=00008110-001E3842018A801E</div>
     </section>
 
     <section id="stateError" class="card state is-error" aria-labelledby="errTitle" hidden>
@@ -887,13 +895,13 @@ body{
         <div class="udid-meta">
           <span class="pill ok" id="udidFormatPill">
             <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="m5 12.5 4.2 4.2L19 7"/></svg>
-            <span id="udidFormatText">Hợp lệ</span>
+            <span id="udidFormatText">UDID chính xác</span>
           </span>
           <span class="pill">
             <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
               <circle cx="12" cy="12" r="9"/><path d="M12 7.5V12l3 1.8"/>
             </svg>
-            Tra cứu theo URL
+            VSign.download
           </span>
         </div>
       </div>
@@ -1043,14 +1051,20 @@ body{
       </div>
     </div>
 
-    <div class="footer-meta" style="border-top:1px solid var(--stroke); padding-top:16px; margin-top:4px;">
+    <div class="footer-meta" style="border-top:1px solid var(--stroke); padding-top:14px; margin-top:2px;">
       <div class="footer-meta-group">
         <span>Protected by</span>
-        <strong style="color:var(--text-1); font-weight:650;">Vietnam Signing Authority</strong>
+        <span class="protected">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+            <path d="M12 3l7 3v5c0 4.6-3 8.2-7 10-4-1.8-7-5.4-7-10V6l7-3z"/>
+            <path d="m9 12.2 2 2 4-4.2"/>
+          </svg>
+          Vietnam Signing Authority
+        </span>
       </div>
       <div class="footer-meta-group">
         <span class="dot-sep">•</span>
-        <span>v3.2.1</span>
+        <span class="version">v3.2.1</span>
       </div>
     </div>
   </footer>
@@ -1361,9 +1375,7 @@ body{
 
   function renderUdid(){
     els.udidValue.textContent = state.udid;
-    els.udidFormatText.textContent = state.format === "40-hex"
-      ? "40 ký tự hexadecimal"
-      : "25 ký tự hệ thống";
+    els.udidFormatText.textContent = "UDID chính xác";
   }
 
   function setFilter(nextFilter){
@@ -1559,14 +1571,11 @@ body{
   });
 
   // Header scroll state
-  let lastScrollY = window.scrollY;
   let ticking = false;
   window.addEventListener("scroll", () => {
     if (!ticking) {
       window.requestAnimationFrame(() => {
-        const y = window.scrollY;
-        els.siteHeader.classList.toggle("scrolled", y > 12);
-        lastScrollY = y;
+        els.siteHeader.classList.toggle("scrolled", window.scrollY > 12);
         ticking = false;
       });
       ticking = true;
